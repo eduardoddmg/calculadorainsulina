@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora Insulina</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Calculadora de insulina</h2>
+        <div class="container-input">
+            <div class="input">
+                <label>Dosagem matutina em UI</label><br>
+                <input type="number" name="" id="1" placeholder="Valor mínimo: 0">
+            </div>
+           
+            <div class="input">
+                <label>Dosagem vespertina em UI</label><br>
+                <input type="number" name="" id="2" placeholder="Valor mínimo: 0">
+            </div>
+    
+            <div class="input">
+                <label>Dosagem noturna em UI</label><br>
+                <input type="number" name="" id="3" placeholder="Valor mínimo: 0">
+            </div>
+    
+            <div class="input">
+                <label>Quantidade de dias</label><br>
+                <input type="number" name="" id="4" placeholder="Valor mínimo: 0">
+            </div>
+        </div>
+        
+        <div class="result">
+            <div class="dosagem">
+                <p>Sua dosagem mensal é: <br> <span id="span1"></span></p>
+            </div>
+    
+            <div class="frascos">
+                <p>Total de frascos: <br> <span id="span2"></span></p>
+            </div>
+            <div class="informacao">
+                <p>1 frasco = 10 mL</p>
+            </div>
+        </div>
+        
+
+        <div class="button">
+            <button onclick="resultado()">Calcular</button>
+        </div>
+
+        <div class="rodape">
+            <p>Desenvolvido por <a href="https://www.linkedin.com/in/eduardo-melo-b15735222/" target="_blank" rel="noopener noreferrer">Eduardo Melo</a> e <a href="https://www.linkedin.com/mwlite/in/luis-henrique-vieira-viana-aba3b8211" target="_blank" rel="noopener noreferrer">Luis Henrique</a> </p>
+        </div>
+    </div>
+    
+
+
+
+<script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,238 @@
+* {
+    box-sizing: border-box;
+    outline: none;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: rgb(190, 190, 243);
+    height: auto;
+
+}
+
+
+.container {
+    width: 70%;
+    height: 600px;
+    background-color: black;
+    border-radius: 12px;
+    margin-top: 20px;
+    margin: 0px auto 0px auto;
+}
+
+.container h2 {
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+}
+
+.input {
+    margin-bottom: 40px;
+    margin-left: 40px;
+}
+
+p {
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+button {
+    cursor: pointer;
+    width: 90px;
+    height: 30px;
+    background-color: black;
+    border: 1px solid white;
+    color: white;
+    font-weight: bold;
+    margin-left: 40px;
+}
+
+button:hover {
+    background-color: white;
+    color: black;
+    transition: 0.4s;
+}
+
+.container-input {
+    display: inline-block;
+    width: 50%;
+    display: left;
+}
+
+.result {
+    width: 50%;
+    float: right;
+}
+
+.frascos {
+    display: block;
+    margin-top: 100px;
+    margin-bottom: 170px;
+    width: 400px;
+    height: auto;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.frascos p {
+    color: black;
+    margin: 20px 0px 0px 15px;
+}
+
+span {
+    color: black;
+    margin-top: 40px;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.dosagem {
+    margin-bottom: 30px;
+    display: block;
+    margin-top: 10px;
+    width: 400px;
+    height: auto;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.dosagem p {
+    color: black;
+    margin: 20px 0px 0px 15px;
+
+}
+
+.informacao {
+    display: block;
+    width: 220px;
+    height: auto;
+    background-color: white;
+    border-radius: 10px;
+    position: fixed;
+}
+
+.informacao p {
+    color: black;
+    margin: 0px 0px 0px 15px;
+
+}
+
+
+
+
+
+label {
+    color: white;
+    margin-bottom: 20px;
+}
+
+input {
+    width: 200px;
+    height: 35px;
+    border-radius: 15px;
+    border: 1px solid white;
+    margin-top: 10px;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input, label {
+    font-weight: bold;
+}
+
+::placeholder {
+    font-weight: bold;
+}
+
+.rodape {
+    text-align: center;
+}
+
+.rodape p {
+    font-size: 15px;
+    margin-top: 70px;
+}
+
+.rodape a {
+    text-decoration: none;
+    color: rgb(190, 190, 243);
+    font-weight: bold;
+}
+
+.rodape a:hover {
+    color: white;
+    transition: 0.4s;
+}
+
+@media screen and (max-width: 600px) {
+    .container {
+        width: 90%;
+        margin: auto;
+        height: auto;
+        margin-bottom: 15px;
+    }
+
+    .container-input {
+        display: block;
+    }
+    .result {
+        display: block;
+        margin: 50px 150px;
+    }
+
+    .frascos {
+        display: block;
+        margin-top: 50px;
+        margin-bottom: 20px;
+        margin-left: 40px;
+        width: 200px;
+        height: auto;
+        background-color: white;
+        border-radius: 10px;
+    }
+    
+    .frascos p {
+        color: black;
+        margin: 20px 0px 0px 15px;
+    }
+    
+    span {
+        color: black;
+        margin-top: 40px;
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+    
+    .dosagem {
+        display: block;
+        margin-top: 10px;
+        width: 200px;
+        height: auto;
+        background-color: white;
+        border-radius: 10px;
+        margin-left: 40px;
+    }
+    
+    .dosagem p {
+        color: black;
+        margin: 20px 0px 0px 15px;
+    
+    }
+    
+    button {
+        margin-bottom: 20px;
+    }
+
+    body {
+        height: 1200px;
+        width: 90%;
+        overflow-x: hidden;
+    }
+
+  }
+  
